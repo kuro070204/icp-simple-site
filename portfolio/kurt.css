@@ -1,0 +1,50 @@
+body {
+    font-family: Century Gothic, Franklin Gothic Heavy;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.resume-container {
+    width: 60%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.heading {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+}
+.section-title {
+    font-size: 20px;
+    color: black;
+    border-bottom: 2px Solid beige;
+    margin-bottom: 10px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+.skills-list, .experience-list, .education-list {
+    list-style: none;
+    padding-left: 0;
+}
+.skills-list li, .experience-list li, .education-list li {
+    padding: 5px 0;
+}
